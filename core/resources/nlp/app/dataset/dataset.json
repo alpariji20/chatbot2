@@ -1,0 +1,627 @@
+{
+  "intents": [
+    {
+      "tag": "salam-pembuka",
+      "patterns": [
+        "Assalamualaikum",
+        "Mohon maaf mengganggu waktunya",
+        "Assalamualaikum min",
+        "Slmt mlm",
+        "Hai ka",
+        "Selamat pagi",
+        "Selamat Malam",
+        "Selamat Siang",
+        "Selamat Sore",
+        "Hallo ka",
+        "P saya mau tanya",
+        "p test ka",
+        "Hai ka p",
+        "Ka ijin bertanya",
+        "Kak saya mau tanya",
+        "Permisi ka, saya mau bertanya"
+      ],
+      "responses": [
+        "Hallo ka, ada yang bisa MINRA bantu? Silahkan pilih bahasa yang akan digunakan untuk memulai percakapan. \n1. Bahasa Indonesia\n2. Bahasa Inggris\n\nIs there anything I can help you with? Please choose the language you want to use to start the conversation.\n1. Indonesian\n2. English"
+      ]
+    },
+    {
+      "tag": "bahasa-indonesia",
+      "patterns": [
+        "Bahasa Indonesia",
+        "indonesia",
+        "Indonesia",
+        "saya pilih 1",
+        "saya mau menggunakan bahasa indonesia",
+        "saya pilih nomor 1"
+      ],
+      "responses": [
+        "Terimakasih telah menghubungi kami tim pelayanan Universitas Nusa Putra. Silahkan pilih salah satu subs informasi dibawah ini agar MINRA mengetahui informasi yang kakak butuhkan.\n- Informasi Universitas Nusa Putra\n- Informasi PMB (Reguler, Beasiswa)\n- Informasi Akademik\n- Informasi Non-Akademik\n- Informasi Lowongan Kerja/Magang\n- Konten Sosial Media\n- Chat Dengan Admin\n- Kembali Memilih Bahasa"
+      ]
+    },
+    {
+      "tag": "informasi-universitas-nusa-putra",
+      "patterns": [
+        "Informasi Universitas Nusa Putra",
+        "Info Universitas",
+        "Nusa Putra",
+        "Saya mau informasi nusa putra",
+        "Berikan saya informasi kampus",
+        "kampus nusa putra",
+        "nusa putra"
+      ],
+      "responses": [
+        "Universitas Nusa Putra adalah Universitas Swasta yang berlokasi di Sukabumi - Jawa Barat. Nusa Putra berdiri pada tahun 2002 sebagai Sekolah Tinggi Teknik (STT), dan menjadi Universitas pada tahun 2018. Universitas Nusa Putra telah menjelma menjadi lembaga pendidikan yang terus tumbuh secara kuantitas dan berkembang pada sisi kualitas. Saat ini Nusa Putra dipercaya oleh lebih dari 9000 mahasiswa dari 63 negara di dunia dan telah menghasilkan lebih dari 2000 alumni yang tersebar di berbagai profesi pekerjaan, serta sudah mengantongi akreditasi Baik Sekali skala Nasional dan Internasional. Informasi lebih lanjut klik link berikut https://nusaputra.ac.id/id/ \n- daftar sekarang https://pmb.nusaputra.ac.id/ \n- kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "pendaftaran",
+      "patterns": [
+        "Bagaimana cara mendaftar?",
+        "Bagaimana prosedur pendaftaran? ",
+        "Cara mendaftar",
+        "Prosedur pendaftaran",
+        "Pendaftaran mahasiswa baru",
+        "Bagaimana cara daftar jadi mahasiswa?",
+        "Saya mau mendaftar, bagaimana caranya?",
+        "Proses pendaftaran mahasiswa baru seperti apa?",
+        "Dimana saya bisa daftar?",
+        "Apakah ada pendaftaran online?"
+      ],
+      "responses": [
+        "Untuk mendaftar di Nusa Putra University, kakak bisa mengikuti langkah-langkah berikut:\n1. Kunjungi situs web kami di https://pmb.nusaputra.ac.id/.\n2. Pilih program studi yang Anda minati.\n3. Isi formulir pendaftaran online dengan data diri yang lengkap.\n4. Unggah dokumen-dokumen yang diperlukan.\n5. Lakukan pembayaran biaya pendaftaran.\n6. Tunggu konfirmasi dari tim admisi kami. \nJika ada pertanyaan lebih lanjut, kakak bisa menghubungi admin kami."
+      ]
+    },
+    {
+      "tag": "Dokumen-daftar",
+      "patterns": [
+        "Apa saja persyaratan untuk daftar?",
+        "Dokumennya persyratan apa saja",
+        "Dokument persyaratan untuk daftar",
+        "Syarat daftar apa saja?",
+        "persyaratan nya apa aja ya?",
+        "Apa saja yang dibutuhkan untuk daftar?",
+        "Apakah ada persyaratan daftar?"
+      ],
+      "responses": [
+        "Berikut adalah beberapa persyaratan yang harus kakak siapkan untuk mendaftar: \n1. Scan Identitas diri(KTP/SIM/SKS). \n2. Pas foto ukuran 4x6 dengan background warna putih. \n3. Scand raport SLTA kelas 1 dan 2. \n4. Scan Ijazah SLTA. \n5. Scan sertifikat prestasi Akademik atau non akademik sebagai tambahan. \nJika ada pertanyaan lebih lanjut, kakak bisa menghubungi admin kami."
+      ]
+    },
+    {
+      "tag": "informasi-biaya-kuliah",
+      "patterns": [
+        "Berapa biaya kuliah?",
+        "Biaya kuliah untuk program sarjana di Universitas Nusa Putra?",
+        "Apakah ada biaya administrasi saat mendaftar sebagai mahasiswa baru?",
+        "Bisakah saya mendapatkan rincian lengkap mengenai biaya ?",
+        "saya mau informasi biaya kuliah",
+        "Apa saja pembiayaan kuliah di Nusa Putra",
+        "info biaya kuliah Nusa Putra",
+        "Berapa rincian biaya pendaftaran ?",
+        "informasi UKT",
+        "Berapa UKT ?",
+        "biaya ukt"
+      ],
+      "responses": [
+        "Berikut adalah rincian biaya pendidikan di Nusa Putra University: Biaya pendaftaran sebesar Rp 200.000 harus dibayarkan saat pendaftaran. Setelah lulus dan diterima, calon mahasiswa perlu membayar biaya daftar ulang yang bervariasi sesuai gelombang pendaftaran: \n- Gelombang I sebesar Rp 2.000.000 \n- Gelombang II Rp 2.500.000 \n- Gelombang III Rp 3.000.000 \n- Gelombang IV Rp 3.500.000 \n- Gelombang V Rp 4.000.000. \n Selain itu, biaya per semester (SPP) \n- untuk Program S1 Reguler adalah Rp 3.000.000 \n- Program S1 Karyawan Malam Rp 3.400.000 \n- Program S1 Blended Learning Rp 4.000.000 \n- Program S1 Internasional Rp 8.000.000."
+      ]
+    },
+    {
+      "tag": "beasiswa",
+      "patterns": [
+        "Informasi beasiswa Universitas Nusa Putra",
+        "Info beasiswa",
+        "Beasiswa Nusa Putra",
+        "Apakah ada program beasiswa yang sedang dibuka ?",
+        "bagaimana cara mendapatkan beasiswa?",
+        "cara mendaftar beasiswa",
+        "syarat beasiswa",
+        "info beasiswa",
+        "bagaimana proses pendaftaran beasiswa?",
+        "proses beasiswa",
+        "pendaftaran beasiswa",
+        "daftar beasiswa",
+        "Apa ada beasiswa di Nusa Putra?",
+        "Bagaimana cara apply beasiswa di Nusa Putra?"
+      ],
+      "responses": [
+        "Nusa Putra University memiliki berbagai program beasiswa bagi calon mahasiswa yang memenuhi syarat. Beasiswa yang ditawarkan yaitu beasiswa 1000 Anak Negeri yang meliputi Beasiswa Prestasi Akademik, Beasiswa Prestasi Non-Akademik, Beasiswa Bidikmisi, dan Beasiswa KIP-K. Informasi lebih lanjut dapat diakses melalui link berikut https://nusaputra.ac.id/id/registrasi/penerimaan-mahasiswa-baru/beasiswa/ \nJika ada pertanyaan lebih lanjut, kakak bisa menghubungi admin kami."
+      ]
+    },
+    {
+      "tag": "informasi-kipk",
+      "patterns": [
+        "Informasi kipk?",
+        "Info kipk?",
+        "Apakah bisa mendaftar kipk?",
+        "saya mau informasi tentang kipk?",
+        "apakah bisa kipk?",
+        "bagaimana cara mendaftar kipk ?",
+        "kipk itu apa ya?"
+      ],
+      "responses": [
+        "Untuk informasi program KIP Kuliah di Nusa Putra, Calon mahasiswa terlebih dahulu harus membuat akun KIP melalui situs Kemendikbud dan memilih kampus Universitas Nusa Putra sebagai Universitas tujuan. Selanjutnya, calon mahasiswa melakukan pendaftaran mandiri melalui situs PMB Nusa Putra di link berikut https://nusaputra.ac.id/id/registrasi/penerimaan-mahasiswa-baru/ . Kemudian calon mahasiswa mengikuti tes seleksi jalur mandiri di Universitas Nusa Putra. Setelah dinyatakan lulus dan diterima, calon mahasiswa dapat mengajukan KIP, yang akan diseleksi dan diverifikasi kelayakannya. Verifikasi akhir dilakukan oleh Kemendikbud dan tim seleksi KIP.\nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "informasi-akademik",
+      "patterns": [
+        "Informasi Akademik",
+        "Apa saja program studi yang ada di Nusa Putra ?",
+        "Apakah pendaftaran Penerimaan Mahasiswa Baru (PMB) sudah di buka ?",
+        "Info Akademik",
+        "Akademik",
+        "jurusannya apa saja",
+        "Ada program prodi apa saja",
+        "Program Studi",
+        "mata kuliah",
+        "dosen",
+        "Fakultas",
+        "kuliah",
+        "Apa saja jurusan yang tersedia?",
+        "Ada berapa fakultas?",
+        "Apa saja program studi?",
+        "Jurusan apa saja?",
+        "Fakultas apa saja?"
+      ],
+      "responses": [
+        "Universitas Nusa Putra menawarkan berbagai program studi seperti: \n1. Teknik Mesin \n2. Teknik Elektro \n3. Teknik Sipil \n4. Teknik Informatika \n5. Sistem Informasi \n6. Desain Komunikasi Visual \n7. Manajemen \n8. Akuntansi \n9. Ilmu Hukum \n10. PGSD  \n Setiap program studi sudah terakreditasi Nasional dan Internasional sehingga memiliki kurikulum yang dirancang untuk mempersiapkan mahasiswa menjadi lulusan yang siap kerja. Informasi lebih lanjut mengenai program studi dapat diakses melalui link berikut https://nusaputra.ac.id/id/fakultas-dan-program-studi/ \n daftar sekarang https://pmb.nusaputra.ac.id/ \nJika ada pertanyaan lebih lanjut, kakak bisa menghubungi admin kami."
+      ]
+    },
+    {
+      "tag": "informasi-jadwal-kuliah",
+      "patterns": [
+        "Pilihan kelas kuliah",
+        "Apakah ada kelas karyawan di Nusa Putra",
+        "kelas karyawan",
+        "Ada pilihan kelas apa aja di Nusa Putra",
+        "Ada kelas apa aja di nusa putra?",
+        "Pilihan kelas",
+        "Apakah ada kelas Internasional?",
+        "Kelas internasional",
+        "Info pilihan kelas"
+      ],
+      "responses": [
+        "Universitas Nusa Putra menawarkan lima pilihan kelas: Reguler (Senin-Jumat 08.00-16.00 WIB), Karyawan Malam (Senin-Kamis 18.30-21.00 WIB), Blended Learning Sabtu (tatap muka setiap Sabtu 13.00-21.00 WIB), Blended Learning Minggu (tatap muka setiap Minggu 08.00-16.00 WIB), dan Kelas Internasional dengan jadwal yang sama seperti kelas reguler. \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "Teknik-mesin",
+      "patterns": [
+        "Saya mau tanya informasi teknik mesin?",
+        "Apa itu teknik mesin?",
+        "Ada apa saja di teknik mesin",
+        "Program Studi teknik mesin",
+        "Jurusan teknik mesin"
+      ],
+      "responses": [
+        "Program Studi Sarjana (S1) Teknik Mesin Universitas Nusa Putra mengembangkan disiplin berbasis cabang ilmu teknik mesin dengan penekanan pada cabang keilmuan perancangan, manufaktur dan konversi energi. Ketiga cabang keilmuan ini disampaikan sebagai mata kuliah wajib untuk ilmu-ilmu dasarnya dan sebagai mata kuliah pilihan untuk ilmu yang lebih spesifik. Informasi lebih lanjut silahkan klik link berikut https://nusaputra.ac.id/id/akademik/fakultas-engineering-computer-and-design/teknik-mesin/ \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "Teknik-sipil",
+      "patterns": [
+        "Saya mau tanya informasi sipil?",
+        "Apa itu  sipil?",
+        "Ada apa saja di  sipil",
+        "Program Studi sipil",
+        "Apa itu sipil",
+        "Jurusan sipil"
+      ],
+      "responses": [
+        "Program Studi Sarjana (S1) Teknik Sipil Universitas Nusa Putra menyiapkan mahasiswa untuk berkarya di bidang perencanaan transportasi, jalan serta perancangan konstruksi dan manajemen dalam proyek yang membutuhkan insinyur sipil. Lulusan Program Studi Teknik Sipil melayani masyarakat melalui penerapan pengetahuan dan keterampilan dalam perencanaan, perancangan, konstruksi sarana dan prasarana dalam berbagai rentang disiplin. Informasi lebih lanjut silahkan klik link berikut https://civil.nusaputra.ac.id/ \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "Teknik-elektro",
+      "patterns": [
+        "Saya mau tanya informasi elektro?",
+        "Elektro apaan sih?",
+        "Ada apa saja di elektro",
+        "Program Studi elektro",
+        "Apa itu elektro",
+        "Jurusan elektro adalah"
+      ],
+      "responses": [
+        "Program Studi Sarjana Teknik Elektro Universitas Nusa Putra berdiri pada tahun 2018 merupakan satu-satunya program studi di wilayah Sukabumi-Indonesia yang menyelenggarakan pendidikan tinggi di bidang Teknik Elektro meliputi penguasaan keilmuan di bidang arus kuat meliputi listrik tenaga dan energi terbarukan serta bidang arus lemah meliputi Robotika dan Internet of Things (IOT). Informasi lebih lanjut silahkan klik link berikut https://te.nusaputra.ac.id/ \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "Teknik-Informatika",
+      "patterns": [
+        "Saya mau tanya informasi informatika?",
+        "TI apaan sih?",
+        "Ada apa saja di informatika",
+        "Program Studi informatika",
+        "Apa itu TI",
+        "Jurusan IT adalah"
+      ],
+      "responses": [
+        "Program Studi Sarjana (S1) Teknik Informatika Universitas Nusa Putra mengarahkan mahasiswa untuk mengkaji cakupan disiplin, proses, teknik dan alat bantu yang dibutuhkan dalam membangun sistem berbasis komputer. Dimana mahasiswa diarahkan untuk memiliki kompetensi dalam memahami mekanisme kerja komputer, model solusi berbasis komputer, logika dan algoritma pemrograman, rancang bangun perangkat lunak dan lain sebagainya. Informasi lebih lanjut silahkan klik link berikut https://informatika.nusaputra.ac.id/ \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "Sistem-Informasi",
+      "patterns": [
+        "Saya mau tanya sistem informasi ?",
+        "SI apaan sih?",
+        "Ada apa saja di Sistem informasi",
+        "Program Studi sistem informasi",
+        "Apa itu SI",
+        "Jurusan sistem informasi adalah",
+        "sistem informasi"
+      ],
+      "responses": [
+        "Meningkatnya kebutuhan Teknologi Informasi untuk dunia Bisnis di era milenial ini merupakan tantangan bagi Program Studi Sarjana Sistem Informasi untuk terus menghasilkan Sarjana Komputer yang kompeten dan mampu bersaing dalam tingkat Internasional. Untuk itu Program Studi Sarjana Sistem Informasi mewujudkannya dalam bentuk kurikulum yang dirancang sesuai kebutuhan pasar dengan melibatkan para ahli, stakeholder, serta dunia industri. Informasi lebih lanjut silahkan klik link berikut https://si.nusaputra.ac.id/ \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "DKV",
+      "patterns": [
+        "Saya mau tanya Dkv?",
+        "DKV itu apa?",
+        "Ada apa saja di Desain Komunikasi Visual",
+        "Program Studi dkv",
+        "Apa itu SIdkv",
+        "Jurusan Desain Komunikasi Visual adalah",
+        "Informasi dkv"
+      ],
+      "responses": [
+        "Program studi Desain Komunikasi Visual (DKV) mempertemukan seni dan teknologi dalam sebuah proses hasil karya seorang desain. Lulusan program studi ini memahami dasar dasar seni desain yang baik sekaligus menguasai teknologi di bidang desain grafis dan animasi untuk menghasilkan kreasi-kreasi yang penuh inovasi. Informasi lebih lanjut silahkan klik link berikut https://dkv.nusaputra.ac.id/ \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "Manajemen",
+      "patterns": [
+        "Saya mau tanya informasi jurusan manajemen?",
+        "Jurusan manajemen",
+        "Ada apa saja di manajemen",
+        "Program studi management",
+        "Apa management",
+        "Seperti apa jurusan management",
+        "Informasi manajement"
+      ],
+      "responses": [
+        "Adanya tantangan global, dan dinamisnya kehidupan saat ini menjadikan Program Studi Manajemen sebagai langkah pertama pencapaian masa depan bidang ekonomi dan bisnis. Informasi lebih lanjut silahkan klik link berikut https://management.nusaputra.ac.id/ \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "Akuntansi",
+      "patterns": [
+        "Saya mau tau informasi jurusan akuntansi",
+        "Jurusan akuntansi",
+        "Ada apa saja di prodi akuntansi",
+        "Program studi Akuntansi",
+        "Apa itu Akuntansi",
+        "Seperti apa jurusan Akuntansi",
+        "Informasi terkait akuntansi"
+      ],
+      "responses": [
+        " Program Studi Sarjana Akuntansi Universitas Nusa Putra berdiri pada tahun 2018 merupakan satu-satunya program studi di wilayah Kabupaten Sukabumi Indonesia yang menyelenggarakan pendidikan tinggi di bidang Akuntansi meliputi penguasaan keilmuan di bidang keuangan, perpajakan, serta audit. Informasi lebih lanjut silahkan klik link berikut https://akuntansi.nusaputra.ac.id/ \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "Ilmu-Hukum",
+      "patterns": [
+        "Saya mau tau informasi jurusan ilmu hukum",
+        "Jurusan ilmu hukum",
+        "berikan saya informasi prodi hukum",
+        "Program studi Ilmu Hukum",
+        "Apa itu himakum",
+        "Seperti apa jurusan hukum",
+        "Informasi terkait ilmu hukum"
+      ],
+      "responses": [
+        "Program Studi Hukum Universitas Nusa Putra hadir untuk menjawab berbagai tantangan perkembangan aspek praktis dan isu sosial masyarakat yang berubah seiring dengan perubahan zaman yang terjadi akibat disrupsi teknologi. Program Studi Hukum Universitas Nusa Putra merupakan program studi jenjang Strata 1 (S1) yang menyelenggarakan pendidikan tinggi hukum untuk menghasilkan Sarjana Hukum (SH) yang profesional dan berkarakter. Informasi lebih lanjut silahkan klik link berikut https://law.nusaputra.ac.id/ \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "PGSD",
+      "patterns": [
+        "Saya mau tau informasi jurusan pgsd",
+        "Jurusan PGSD",
+        "berikan saya informasi prodi PGSD",
+        "Program studi Pendidikan Guru Sekolah Dasar",
+        "Saya mau menjadi guru, kira - kira jurusan yang cocok dengan saya apa?",
+        "Seperti apa jurusan pgsd itu?",
+        "Informasi terkait program studi PGSD"
+      ],
+      "responses": [
+        "Program studi PGSD Nusa Putra University mendapatkan izin operasional pada tanggal 08 Februari 2018 bersamaan dengan Surat Keputusan Menteri Riset, teknologi, dan Pendidikan Tinggi Nomor:108/KPT /I/2018 tentang Perubahan Bentuk Sekolah Tinggi Teknologi Nusa Putra menjadi Universitas Nusa Putra. Prodi PGSD pada awal penerimaan mahasiswa baru, animo mayarakat sangat tinggi hampir menyamai prodi favorit pada waktu itu yaitu teknik informatika dan prodi manajemen. Hal ini merupakan tantangan tersendiri bagi prodi PGSD untuk memberikan pelayanan terbaiknya bagi masyarakat. Informasi lebih lanjut silahkan klik link berikut https://pgsd.nusaputra.ac.id/ \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "informasi-non-akademik",
+      "patterns": [
+        "Informasi Non-Akademik",
+        "Info Non-Akademik",
+        "non-akademik",
+        "ekstrakurikuler",
+        "UKM",
+        "kegiatan mahasiswa",
+        "organisasi mahasiswa",
+        "komunitas mahasiswa",
+        "klub mahasiswa",
+        "Kegiatan apa saja yang bisa diikuti di Nusa Putra?",
+        "Ada kegiatan ekstrakurikuler apa saja di Nusa Putra?"
+      ],
+      "responses": [
+        "Universitas Nusa Putra memiliki berbagai kegiatan non-akademik yang dapat diikuti oleh mahasiswa. Kegiatan tersebut antara lain Unit Kegiatan Mahasiswa (UKM), organisasi kemahasiswaan, dan klub-klub mahasiswa yang mencakup berbagai minat dan bakat. Informasi lebih lanjut mengenai kegiatan non-akademik dapat diakses melalui link berikut https://saac.nusaputra.ac.id/student-creativity-and-activity-unit-scau/ \n daftar sekarang https://pmb.nusaputra.ac.id/ \nJika ada pertanyaan lebih lanjut, kakak bisa menghubungi admin kami."
+      ]
+    },
+    {
+      "tag": "informasi-pengajuan",
+      "patterns": [
+        "Saya mau mengajukan cuti kuliah",
+        "Saya mau meminta Surat Keterangan Mahasiswa",
+        "Bagaimana cara pengajuan Surat Keterangan Mahasiswa",
+        "Cara pengajuan peminjaman dokumen ijazah",
+        "Pengajuan semester pendek",
+        "Semester pendek",
+        "Pengajuan dispensasi pembayaran",
+        "Saya mau dispensasi pembayaran",
+        "Pengajuan daftar sidang",
+        "Bagaimana cara daftar sidang",
+        "Pengajuan yudisium",
+        "Pengunduran diri",
+        "Pindah kelas"
+      ],
+      "responses": [
+        "Silahkan datang langsung ke bagian Sasu Universitas Nusa Putra untuk mengisi form pengajuan tersebut, atau hubungi no 085759999213 berikut untuk informasi lebih lanjut \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "informasi-lowongan-kerja",
+      "patterns": [
+        "Informasi Lowongan Kerja",
+        "Info Lowongan Kerja",
+        "lowongan kerja",
+        "loker",
+        "karir",
+        "lowongan",
+        "pekerjaan",
+        "rekrutmen",
+        "peluang kerja",
+        "Ada lowongan kerja apa di Nusa Putra?",
+        "Bagaimana cara mendapatkan pekerjaan setelah lulus dari Nusa Putra?"
+      ],
+      "responses": [
+        "Universitas Nusa Putra menyediakan informasi mengenai lowongan kerja dan magang untuk mahasiswa dan alumni melalui layanan Career Center. Informasi lebih lanjut mengenai lowongan kerja dan magang dapat diakses melalui link berikut https://nusaputra.ac.id/id/career-center/ \nJika ada pertanyaan lebih lanjut, kakak bisa menghubungi admin kami."
+      ]
+    },
+    {
+      "tag": "konten-sosial-media",
+      "patterns": [
+        "konten sosial media",
+        "sosial media",
+        "konten instagram",
+        "konten facebook",
+        "konten twitter",
+        "konten tiktok",
+        "konten youtube",
+        "social media",
+        "konten medsos",
+        "Apakah Nusa Putra punya Instagram?",
+        "Bagaimana cara mengikuti Nusa Putra di media sosial?"
+      ],
+      "responses": [
+        "Untuk informasi terbaru dan konten menarik dari Universitas Nusa Putra, ikuti kami di media sosial: Instagram: @nusaputra, Facebook: Universitas Nusa Putra, Twitter: @nusaputra, TikTok: @nusaputra, dan YouTube: Universitas Nusa Putra. Tetap terhubung dan dapatkan update mengenai kegiatan, acara, dan informasi lainnya."
+      ]
+    },
+    {
+      "tag": "chat-admin",
+      "patterns": [
+        "Chat dengan admin",
+        "Kontak admin",
+        "Hubungi admin",
+        "Saya butuh bantuan admin",
+        "Tanya admin",
+        "Berbicara dengan admin",
+        "Bisa saya berbicara dengan admin?",
+        "Saya ingin chat dengan admin",
+        "Saya butuh bicara dengan admin",
+        "Ada yang bisa saya bantu?",
+        "Bantuan dari admin",
+        "with admin"
+      ],
+      "responses": [
+        "Silahkan tuliskan pertanyaan atau informasi yang dibutuhkan, admin akan segera merespon."
+      ]
+    },
+    {
+      "tag": "kembali-memilih-bahasa",
+      "patterns": [
+        "Kembali memilih bahasa",
+        "Ganti bahasa",
+        "Pilih bahasa",
+        "Ubah bahasa",
+        "Saya ingin mengganti bahasa",
+        "Pilih bahasa lagi",
+        "Bahasa lain",
+        "Saya ingin berbicara dalam bahasa lain",
+        "Ubah ke bahasa lain"
+      ],
+      "responses": [
+        "Silahkan pilih bahasa yang akan digunakan untuk memulai percakapan.\n1. Bahasa Indonesia\n2. Bahasa Inggris"
+      ]
+    },
+    {
+      "tag": "bahasa-inggris",
+      "patterns": [
+        "English",
+        "english",
+        "Bahasa Inggris",
+        "Saya pilih Bahasa Inggris",
+        "Mari berbicara dalam Bahasa Inggris",
+        "Bicara bahasa Inggris",
+        "Use English",
+        "Change to English"
+      ],
+      "responses": [
+        "Thank you for contacting MINRA.Currently the MINRA chatbot system cannot answer questions in English. If you have further questions, you can contact our admin."
+      ]
+    },
+    {
+      "tag": "fasilitas-kampus",
+      "patterns": [
+        "Informasi fasilitas kampus",
+        "Fasilitas di Nusa Putra",
+        "Fasilitas kampus",
+        "Apa saja fasilitas di kampus?",
+        "Fasilitas Nusa Putra",
+        "Saya ingin tahu fasilitas di kampus",
+        "Apakah ada fasilitas olahraga di Nusa Putra?",
+        "Fasilitas apa saja yang tersedia di Nusa Putra?"
+      ],
+      "responses": [
+        "Universitas Nusa Putra menyediakan berbagai fasilitas untuk mendukung proses belajar mengajar dan kegiatan mahasiswa, antara lain perpustakaan modern, laboratorium komputer, laboratorium teknik, pusat olahraga, dan fasilitas lainnya. Informasi lebih lanjut mengenai fasilitas dapat diakses melalui link berikut https://nusaputra.ac.id/id/fasilitas/ \nChat dengan admin \nKembali ke pilihan \n- daftar sekarang https://pmb.nusaputra.ac.id/"
+      ]
+    },
+    {
+      "tag": "informasi-perpustakaan",
+      "patterns": [
+        "Jadwal pelayanan perpustakaan",
+        "Informasi perpustakaan",
+        "informasi perpustakaan",
+        "Info perpus",
+        "Apa saja pelayanan di perpustakaan",
+        "Peminjaman buku",
+        "Pinjam buku",
+        "Judul buku",
+        "lokasi perpustakaan"
+      ],
+      "responses": [
+        "Perpustakaan Universitas Nusa Putra terletak di Lantai 6 Gedung A dan menyediakan layanan cek Turnitin, peminjaman buku, ruang baca, dan akses pembelajaran lainnya. Jadwal layanan perpustakaan Nusa Putra berlangsung dari hari Senin hingga Sabtu pukul 08.00 - 18.00 WIB, serta hari Minggu pukul 10.00 - 16.00 WIB. Untuk informasi lebih lanjut, kunjungi situs web library.nusaputra.ac.id. \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "informasi-turnitin",
+      "patterns": [
+        "Informasi turnitin",
+        "informasi turnitin",
+        "Info turnitin",
+        "Cek turnitin"
+      ],
+      "responses": [
+        "Perpustakaan Nusa Putra memberikan layanan Turnitin kepada mahasiswa dengan jadwal operasional setiap hari Senin hingga Jumat dari jam 08.00 hingga 16.00, serta Sabtu dari jam 08.00 hingga 13.00. Informasi lebih lanjut dapat diakses melalui tautan https://linktr.ee/librarynpu. \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "lokasi-kampus",
+      "patterns": [
+        "Dimana lokasi kampus Nusa Putra?",
+        "Alamat Nusa Putra dimana?",
+        "Kampus Nusa Putra berada dimana?",
+        "Saya ingin tahu lokasi kampus Nusa Putra",
+        "Dimana alamat Nusa Putra?",
+        "Alamat lengkap Nusa Putra"
+      ],
+      "responses": [
+        "Kampus Nusa Putra berlokasi di Jl. Raya Cibolang No.21, Sukabumi, Jawa Barat, Indonesia. Informasi lebih lanjut dapat diakses melalui website kami."
+      ]
+    },
+    {
+      "tag": "informasi-dormitori",
+      "patterns": [
+        "Informasi dormitori Nusa Putra",
+        "Ada asrama di Nusa Putra?",
+        "Tempat tinggal mahasiswa di Nusa Putra bagaimana?",
+        "Saya ingin tahu tentang dormitori di Nusa Putra",
+        "Apakah Nusa Putra punya asrama?",
+        "Bagaimana cara mendapatkan tempat di dormitori Nusa Putra?"
+      ],
+      "responses": [
+        "Nusa Putra University menyediakan fasilitas asrama bagi mahasiswa yang membutuhkan. Asrama kami dilengkapi dengan fasilitas modern untuk mendukung kenyamanan mahasiswa. Informasi lebih lanjut dapat diakses melalui link berikut https://nusaputra.ac.id/id/fasilitas/dormitori/"
+      ]
+    },
+    {
+      "tag": "jadwal-pmb",
+      "patterns": [
+        "Kapan jadwal pendaftaran mahasiswa baru di Nusa Putra?",
+        "Jadwal PMB Nusa Putra",
+        "Pendaftaran mahasiswa baru di Nusa Putra kapan?",
+        "Saya ingin tahu jadwal PMB di Nusa Putra",
+        "Jadwal penerimaan mahasiswa baru Nusa Putra",
+        "Kapan pendaftaran dibuka di Nusa Putra?",
+        "Jadwal penerimaan mahasiswa baru Nusa Putra tahun ini"
+      ],
+      "responses": [
+        "Jadwal Pendaftaran Mahasiswa Baru di Nusa Putra University dibagi menjadi beberapa gelombang sepanjang tahun. Untuk informasi lebih lanjut mengenai jadwal pendaftaran, Anda dapat mengunjungi website PMB kami di https://pmb.nusaputra.ac.id/jadwal-pmb."
+      ]
+    },
+    {
+      "tag": "not_found",
+      "patterns": [],
+      "responses": [
+        "Maaf, saya tidak mengerti pertanyaan Anda. Bisa Anda ulangi dengan kalimat yang berbeda atau hubungi admin untuk bantuan lebih lanjut."
+      ]
+    },
+    {
+      "tag": "pilihan-selesai",
+      "patterns": [
+        "Terimakasih",
+        "Terimakasih ya",
+        "Baik terimakasih"
+      ],
+      "responses": [
+        "Terimakasih telah menghubungi kami, semoga informasi yang kami berikan bisa membantu anda, jangan ragu untuk menghubungi kami. Mari bergabung bersama kami di Nusa Putra University"
+      ]
+    },
+
+    {
+      "tag": "university-information",
+      "patterns": [
+        "Nusa Putra University Information",
+        "University Info",
+        "Nusa Putra University"
+      ],
+      "responses": [
+        "Nusa Putra University is a private university located in Sukabumi - West Java. Nusa Putra was founded in 2002 as a College of Engineering (STT), and became a University in 2018. Nusa Putra University has been transformed into an educational institution that continues to grow in quantity and develop in terms of quality. Currently, Nusa Putra is trusted by more than 9,000 students from 63 countries in the world and has produced more than 2,000 alumni spread across various work professions, and has received Excellent National and International accreditation. For further information, click the following link https://nusaputra.ac.id/id/ \n- register now https://pmb.nusaputra.ac.id/ \n7. Chat With Admin\n8. Return to Selecting Language"
+      ]
+    },
+    {
+      "tag": "pmb-information",
+      "patterns": [
+        "PMB Information",
+        "PMB Info",
+        "PMB Nusa Putra",
+        "New Student Registration"
+      ],
+      "responses": [
+        "Currently, Nusa Putra University has two New Student Registration Pathways (PMB), namely the Regular Pathway and the Scholarship Pathway, with five types of classes: Regular Class, International Class, Saturday Blended Learning Class, Sunday Blended Learning Class, and Evening Executive Class. For further information, click the following link https://nusaputra.ac.id/id/registrasi/penerimaan-mahasiswa-baru/ \n7. Chat With Admin\n8. Return to Selecting Language \n- register now https://pmb.nusaputra.ac.id/"
+      ]
+    },
+    {
+      "tag": "academic-information",
+      "patterns": [
+        "Academic Information",
+        "Nusa Putra Academic Information",
+        "Nusa Putra Academic",
+        "Academic Info"
+      ],
+      "responses": [
+        "Nusa Putra University has 10 undergraduate study programs, consisting of the Faculty of Business, Law and Education, as well as the Faculty of Computer Engineering and Design. Namely: Mechanical Engineering, Civil Engineering, Electrical Engineering, Information Engineering, Information Systems, Visual Communication Design, Management, Accounting, Law and Primary School Teacher Education. \n7. Chat With Admin\n8. Return to Selecting Language \n- register now https://pmb.nusaputra.ac.id/"
+      ]
+    },
+    {
+      "tag": "non-academic-information",
+      "patterns": [
+        "Non-Academic Information",
+        "Non-Academic Information Nusa Putra",
+        "Non-Academic Nusa Putra"
+      ],
+      "responses": [
+        "Nusa Putra University has several choices of organizational or non-academic activities for its students. Such as DPM, BEM, UKMK, UKM and HIMA, as well as events organized by the University and the government. For further information, click the following link https://saac.nusaputra.ac.id/ \n7. Chat With Admin\n8. Return to Selecting Language"
+      ]
+    },
+    {
+      "tag": "back",
+      "patterns": [
+        "Back to message",
+        "back"
+      ],
+      "responses": [
+        "Thank you for contacting us, the Nusa Putra University service team. Please select one of the letters or directly type the information subs below so that we know the information you need.\nA. Nusa Putra University Information\nB. PMB Information (Regular, Scholarship)\nC. Academic Information\nD. Non-Academic Information\nE. Job/Internship Information\nF. Social Media Content"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "intents": [
+    {
+      "patterns": [
+        "bagaimana cara mendaftar kuliah?",
+        "cara pendaftaran kuliah",
+        "bagaimana cara registrasi kuliah?",
+        "proses pendaftaran kuliah",
+        "panduan pendaftaran kuliah",
+        "daftar kuliah",
+        "pendaftaran mahasiswa baru",
+        "bagaimana mendaftar menjadi mahasiswa?",
+        "proses daftar mahasiswa baru",
+        "registrasi mahasiswa baru"
+      ],
+      "responses": [
+        "Untuk mendaftar kuliah, Anda dapat mengunjungi situs web kampus kami dan mengisi formulir pendaftaran online.",
+        "Proses pendaftaran kuliah melibatkan pengisian formulir pendaftaran online dan mengunggah dokumen yang diperlukan.",
+        "Anda dapat mendaftar kuliah dengan mengisi formulir pendaftaran di situs web kami dan mengunggah dokumen yang diminta.",
+        "Untuk registrasi kuliah, kunjungi situs web kami, pilih program studi yang diminati, dan isi formulir pendaftaran.",
+        "Panduan pendaftaran kuliah tersedia di situs web kampus. Isi formulir pendaftaran dan unggah dokumen yang diperlukan.",
+        "Daftar kuliah dengan mengunjungi situs web kampus, mengisi formulir pendaftaran, dan mengunggah dokumen yang diperlukan.",
+        "Pendaftaran mahasiswa baru dilakukan secara online melalui situs web kampus. Isi formulir pendaftaran dan unggah dokumen yang diminta.",
+        "Untuk menjadi mahasiswa, kunjungi situs web kampus, pilih program studi, dan isi formulir pendaftaran online.",
+        "Proses daftar mahasiswa baru melibatkan pengisian formulir pendaftaran online dan unggah dokumen yang diperlukan.",
+        "Registrasi mahasiswa baru dilakukan melalui situs web kampus. Isi formulir pendaftaran dan unggah dokumen yang diminta."
+      ],
+      "tag": "pendaftaran-kuliah"
+    },
+    {
+      "tag": "salam-pembuka",
+      "patterns": ["Assalamulaikum", "Hai", "Hi", "Hallo", "Hello", "Min"],
+      "responses": [
+        "Hallo ka, ada yang bisa mimin bantu?,silahakan pilih bahasa yang akan digunakan untuk memulai percakapan. \n1. Bahasa Indonesia | \n2. Bahasa Inggris ------ Is there anything I can help you with? Please choose the language you want to use to start the conversation. \n1. Indonesian | \n2. English",
+        "Hallo ka, dengan saya Elok, ada yang bisa dibantu?, silahkan pilih bahasa untuk memulai percakapan. \n1. Bahasa Indonesia | \n2. Bahasa Inggris ------ Hello ka, I'm Elok, can I help you? Please choose a language to start a conversation. \n1. Indonesian | \n2. English",
+        "Hallo ka, dengan saya Purnama, ada yang bisa kami bantu? silahkan pilih bahasa terlebih dahulu untuk memulai percakapan. \n1. Bahasa Indonesia | \n2. Bahasa Inggris ------ Hello ka, I'm Purnama, how can we help you? Please select a language first to start a conversation. \n1. Indonesian | \n2. English",
+        "Hallo ka, saya Alivia, ada yang bisa dibantu? silahkan pilih bahasa terlebih dahulu untuk memulai percakapan. \n1. Bahasa Indonesia | \n2. Bahasa Inggris ------ Hello, I'm Alivia, can I help you? Please select a language first to start a conversation. \n1. Indonesian | \n2. English",
+        "Hallo ka, saya Salman, ada yang bisa dibantu? silahkan pilih bahasa terlebih dahulu untuk memulai percakapan. \n1. Bahasa Indonesia | \n2. Bahasa Inggris ------ Hello, I'm Salman, can I help you? Please select a language first to start a conversation. \n1. Indonesian | \n2. English"
+      ]
+    },
+    {
+      "tag": "bahasa-indonesia",
+      "patterns": ["Indonesia", "indonesia", "Bahasa Indonesia"],
+      "responses": [
+        "Terimakasih telah menghubungi kami tim pelayanan Universitas Nusa Putra. Silahkan pilih salah satu abjad atau ketik langsung subs informasi dibawah ini agar mimin mengetahui informasi yang kakak butuhkan.\nA. Informasi Universitas Nusa Putra\nB. Informasi PMB (Reguler, Beasiswa)\nC. Informasi Akademik\nD. Informasi Non-Akademik\nE. Informasi Lowongan Kerja/Magang\nF. Konten Sosial Media\nG. Chat Dengan Admin\nH. Kembali Memilih Bahasa"
+      ]
+    },
+    {
+      "tag": "informasi-universitas-nusa-putra",
+      "patterns": ["Informasi Universitas Nusa Putra", "Info Universitas", "Universitas Nusa Putra", "A", "a"],
+      "responses": [
+        "Universitas Nusa Putra adalah Universitas Swasta yang berlokasi di Sukabumi - Jawa Barat. Nusa Putra berdiri pada tahun 2002 sebagai Sekolah Tinggi Teknik (STT), dan menjadi Universitas pada tahun 2018. Universitas Nusa putra telah menjelma menjadi lembaga pendidikan yang terus tumbuh secara kuantitas dan berkembang pada sisi kualitas. Saat ini Huha dipercaya oleh lebih dari 9000 mahasiswa dari 63 Negara di dunia dan telah menghasilkan lebih dari 2000 alumni yang tersebar di berbagai profesi pekerjaan, serta sudah mengantongi akreditasi Baik Sekali sekala Nasional dan Internasional. Informasi Lebih lanjut klik link berikut https://nusaputra.ac.id/id/ \n- daftar sekarang https://pmb.nusaputra.ac.id/ \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "informasi-pmb",
+      "patterns": ["Informasi PMB", "Info PMB", "PMB Nusa Putra", "B", "b", "Pendaftaran Mahasiswa Baru"],
+      "responses": [
+        "Saat ini, Universitas Nusa Putra memiliki dua Jalur Pendaftaran Mahasiswa Baru (PMB) yaitu jalur Reguler dan jalur Beasiswa, dengan lima pilihan jenis kelas Reguller| Kelas Internasional | Kelas blanded learning sabtu | kelas blanded learning minggu | kelas excekutif malam. Informasi lebih lanjut klik link berikut https://nusaputra.ac.id/id/registrasi/penerimaan-mahasiswa-baru/ ...\nG. Chat dengan admin \nH. kembali ke pilihan \n- daftar sekarang https://pmb.nusaputra.ac.id/"
+      ]
+    },
+    {
+      "tag": "informasi-akademik",
+      "patterns": ["Informasi Akademik", "Informasi Akademik Nusa Putra", "Akademik Nusa putra", "C", "c", "Info Akademik"],
+      "responses": [
+        "Universitas Nusa Putra memiliki 10 Program Studi S1, yang terdiri dari Fakultas Bisnis, Hukum dan Pendidikan, serta Fakultas Teknik Komputer dan Desain. Yaitu: Teknik Mesin, Teknik Sipil, Teknik Elektro, Teknik Informatika, Sistem Informasi, Desain Komunikasi Visual, Manajemen, Akuntansi, Ilmu Hukum dan Pendidikan Guru Sekolah Dasar. Informasi lebih lanjut FECD FBH...\nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "informasi-non-akademik",
+      "patterns": ["Informasi Non-Akademik", "Informasi Non-Akademik Nusa Putra", "Non-Akademik Nusa Putra", "D", "d", "Info Non-Akademik"],
+      "responses": [
+        "Universitas Nusa Putra memiliki beberapa pilihan kegiatan organisasi atau Non-Akademik bagi para mahasiswanya. Seperti DPM, BEM, UKMK, UKM dan HIMA, serta event–event yang diselenggarakan oleh Universitas maupun pemerintah. Informasi lebih lanjut Link berikut https://saac.nusaputra.ac.id/ ...\nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "informasi-lowongan-kerja",
+      "patterns": ["Informasi Lowongan Kerja", "Lowongan Pekerjaan", "Lowongan Magang", "E", "e"],
+      "responses": [
+        "Dalam waktu_waktu tertentu, Universitas Nusa Putra selalu membuka lowongan kerja atau magang dan selalu di share melalui sosial media instagram, facebook dan linkedin karier Nusa putra University. Informasi lebih lanjut https://karir.nusaputra.ac.id/... \nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "informasi-sosial-media",
+      "patterns": ["Informasi Sosial Media", "Info Sosial Media", "Sosmed Nusa Putra", "Sosial Media Universitas Nusa Putra", "F", "f"],
+      "responses": [
+        "Universitas Nusa Putra memiliki beberapa akun sosial media yang digunakan sebagai alat komunikasi dan share informasi. Seperti Facebook, Instagram, Youtube, Tiktok, Telegram dan Twitter. Penjelasan Informasi Sosial Media https://linktr.ee/nusaputrauniversity? ...\nG. Chat dengan admin \nH. kembali ke pilihan"
+      ]
+    },
+    {
+      "tag": "chat-dengan-admin",
+      "patterns": ["Chat admin", "Chat dengan admin", "G", "g"],
+      "responses": [
+        "Hallo ka, silahkan tunggu beberapa saat sampai admin kami menjawab pertanyaan kakak..."
+      ]
+    },
+    {
+      "tag": "kembali",
+      "patterns": ["Kembali", "kembali", "H", "h"],
+      "responses": [
+        "Terimakasih telah menghubungi kami tim pelayanan Universitas Nusa Putra. Silahkan pilih salah satu abjad atau ketik langsung subs informasi dibawah ini agar mimin mengetahui informasi yang kakak butuhkan.\nA. Informasi Universitas Nusa Putra\nB. Informasi PMB (Reguler, Beasiswa)\nC. Informasi Akademik\nD. Informasi Non-Akademik\nE. Informasi Lowongan Kerja/Magang\nF. Konten Sosial Media\nG. Chat Dengan Admin\nH. Kembali Memilih Bahasa"
+      ]
+    },
+    {
+      "tag": "bahasa-inggris",
+      "patterns": ["Inggris", "inggris", "english", "English", "english", "Bahasa Inggris"],
+      "responses": [
+        "Thank you for contacting us, the Nusa Putra University service team. Please select one of the letters or type directly in the information below so that I know the information you need.\n1). Nusa Putra University Information\n2). PMB Information (Regular, Scholarship)\n3). Academic Information\n4). Non-Academic Information\n5). Job/Internship Vacancies Information\n6). Social Media Content \n7). Chat With Admin \n8). Return to Selecting Language"
+      ]
+    },
+    {
+      "tag": "university-information",
+      "patterns": ["Nusa Putra University Information", "University Info", "Nusa Putra University", "1)"],
+      "responses": [
+        "Nusa Putra University is a private university located in Sukabumi - West Java. Nusa Putra was founded in 2002 as a College of Engineering (STT), and became a University in 2018. Nusa Putra University has been transformed into an educational institution that continues to grow in quantity and develop in terms of quality. Currently, Huha is trusted by more than 9,000 students from 63 countries in the world and has produced more than 2,000 alumni spread across various work professions, and has received Excellent National and International accreditation. For further information, click the following link https://nusaputra.ac.id/id/ \n- register now https://pmb.nusaputra.ac.id/ \n7). Chat With Admin \n8). Return to Selecting Language"
+      ]
+    },
+    {
+      "tag": "pmb-information",
+      "patterns": ["PMB Information", "PMB Info", "PMB Nusa Putra", "2)", "New Student Registration"],
+      "responses": [
+        "Currently, Nusa Putra University has two New Student Registration Pathways (PMB), namely the Regular Pathway and the Scholarship Pathway, with five types of Regular Class | International Class | Saturday Blended Learning Class | Sunday Blended Learning Class | Evening Executive Class. Further information click the following link https://nusaputra.ac.id/id/registrasi/penerimaan-mahasiswa-baru/ ...\n7). Chat With Admin \n8). Return to Selecting Language \n- register now https://pmb.nusaputra.ac.id/"
+      ]
+    },
+    {
+      "tag": "academic-information",
+      "patterns": ["Academic Information", "Nusa Putra Academic Information", "Nusa Putra Academic", "3)", "Academic Info"],
+      "responses": [
+        "Nusa Putra University has 10 undergraduate study programs, consisting of the Faculty of Business, Law and Education, as well as the Faculty of Computer Engineering and Design. Namely: Mechanical Engineering, Civil Engineering, Electrical Engineering, Information Engineering, Information Systems, Visual Communication Design, Management, Accounting, Law and Primary School Teacher Education. \n7). Chat With Admin \n8). Return to Selecting Language \n- register now https://pmb.nusaputra.ac.id/"
+      ]
+    },
+    {
+      "tag": "non-academic-information",
+      "patterns": ["Non-Academic Information", "Non-Academic Information Nusa Putra", "Non-Academic Nusa Putra", "4)", "Non-Academic Information"],
+      "responses": [
+        "Nusa Putra University has several choices of organizational or non-academic activities for its students. Such as DPM, BEM, UKMK, UKM and HIMA, as well as events organized by the University and the government. For further information, the following link is https://saac.nusaputra.ac.id/ ...\n7). Chat With Admin \n8). Return to Selecting Language"
+      ]
+    },
+    {
+      "tag": "job-vacancy-information",
+      "patterns": ["Job Vacancies Information", "Job Vacancies", "Internship Vacancies", "5)"],
+      "responses": [
+        "At certain times, Nusa Putra University always opens job vacancies or internships and is always shared via social media Instagram, Facebook and LinkedIn Nusa Putra University careers. Further information https://karir.nusaputra.ac.id/...\n7). Chat With Admin \n8). Return to Selecting Language"
+      ]
+    },
+    {
+      "tag": "information-social-media",
+      "patterns": ["Informasi Sosial Media", "Info Sosial Media", "Sosmed Nusa Putra", "Sosial Media Universitas Nusa Putra", "6)"],
+      "responses": [
+        "Nusa Putra University has several social media accounts which are used as communication and information sharing tools. Such as Facebook, Instagram, Youtube, Tiktok, Telegram and Twitter. Explanation of Social Media Information https://linktr.ee/nusaputrauniversity? ...\n7). Chat With Admin \n8). Return to Selecting Language"
+      ]
+    },
+    {
+      "tag": "admin",
+      "patterns": ["Chat admin", "Chat dengan admin", "7)"],
+      "responses": [
+        "Hello, please wait a few moments until our admin answers your question..."
+      ]
+    },
+    {
+      "tag": "back",
+      "patterns": ["Back", "back", "8)"],
+      "responses": [
+        "Thank you for contacting us, the Nusa Putra University service team. Please select one of the letters or directly type the information subs below so that we know the information you need.\nA. Nusa Putra University Information\nB. PMB Information (Regular, Scholarship)\nC. Academic Information\nD. Non-Academic Information\nE. Job/Internship Information\nF. Social Media Content"
+      ]
+    }
+  ]
+}
